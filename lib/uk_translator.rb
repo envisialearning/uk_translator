@@ -13,6 +13,7 @@ module UkTranslator
     self.data.each do |us_word, uk_word|
       uk_string.gsub!(us_word, uk_word)
       uk_string.gsub!(us_word.capitalize, uk_word.capitalize)
+      uk_string.gsub!(us_word.upcase, uk_word.upcase)
     end
     uk_string
   end
@@ -22,6 +23,7 @@ module UkTranslator
     self.data.each do |us_word, uk_word|
       us_string.gsub!(uk_word, us_word)
       us_string.gsub!(uk_word.capitalize, us_word.capitalize)
+      us_string.gsub!(uk_word.upcase, us_word.upcase)
     end
     us_string
   end
