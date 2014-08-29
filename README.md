@@ -6,15 +6,15 @@ Translate strings between US and UK english spelling using a dictionary of almos
 US to UK:
 
 ```ruby
-UkTranslator.us_to_uk("Prioritize your customizations")
- => "Prioritise your customisations"
+UkTranslator.us_to_uk("Prioritize your COLOR customizations")
+ => "Prioritise your COLOUR customisations"
 ```
 
 UK to US:
 
 ```ruby
-UkTranslator.uk_to_us("Prioritise your customisations.")
- => "Prioritize your customizations"
+UkTranslator.uk_to_us("Prioritise your COLOUR customisations")
+ => "Prioritize your COLOR customizations"
 ```
 
 Limitations:
