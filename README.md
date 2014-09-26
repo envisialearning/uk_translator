@@ -24,3 +24,17 @@ It will only translate words that are:
  * all lowercase
  * Properly Capitalized
  * ALL UPPERCASE
+
+Installation:
+-------------
+Add to Gemfile:
+
+```ruby
+gem 'uk_translator', git: 'https://github.com/envisialearning/uk_translator'
+```
+
+and
+
+```ruby
+bundle install
+```
